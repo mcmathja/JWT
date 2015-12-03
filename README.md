@@ -1,6 +1,6 @@
 # jwt
 
-jwt provides token-based claims authorization based on the [JSON Web Token](http://jwt.io/) standard. It is intended to provide efficient, simple production and parsing of JWTs. Unlike other libraries, we require that the signature mechanisms used to decode each JWT be specified in advance by server, rather than within the JWT itself, improving performance and avoiding certain classes of vulnerabilities.
+jwt provides token-based claims authorization based on the [JSON Web Token](http://jwt.io/) standard. It is intended to provide efficient, simple production and parsing of JWTs. Unlike other libraries, we require that the signature mechanisms used to decode each JWT be specified in advance by the service, rather than within the JWT itself, improving performance and avoiding certain classes of vulnerabilities.
 
 # Usage
 
